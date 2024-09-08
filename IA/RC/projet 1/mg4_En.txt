@@ -1,0 +1,15 @@
+Here's an easy-to-understand translation:
+
+So, for the solution, I will briefly present the perceptron algorithm for updating the weights.
+
+To start:
+- First, all the weights are set to zero.
+- Second, for each training example, we calculate the dot product of the weights and input features, then apply an activation function that returns 1 if the result is positive, otherwise 0.
+- Third, if the prediction does not match the expected output, we adjust the weights based on the prediction error with this formula:
+- Finally, these steps are repeated for a defined number of iterations to improve accuracy.
+
+Now, after training, we have the following weights: [-0.1, -0.3, 0.63]
+
+Also, with an accuracy rate of 80%.
+
+For the continuation, I will let SERIGNE BI present the results in a graph.

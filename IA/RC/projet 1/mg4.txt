@@ -1,0 +1,16 @@
+
+alors pour la solution, je vais un peu vous présenter l'algorithme du perceptron pour la mise a jour des poids  .
+
+pour commencer:
+- premierement tout Les poids sont initialisés à zéro.
+
+- deuxiement Pour chaque exemple d'entraînement, on calcule le produit scalaire des poids et des caractéristiques d'entrée, puis on applique une fonction d'activation qui renvoie 1 si le résultat est positif, sinon 0.
+- trosiemement Si la prédiction ne correspond pas à la sortie attendue, on ajuste les poids en fonction de l'erreur de prédiction avec cette formule : 
+- et a la fin Ces étapes sont répétées pour un nombre défini d'itérations pour améliorer la précision.
+
+maintenant apres l'entrainnement nous avons les poids suivant : [-0.1  -0.3   0.63]
+
+mais aussi avec un pourcentage d'exactitude de 80%.
+
+pour la continuation je vais laisser a mon coequipier de vous presenter les resutats dans un graphe .
+

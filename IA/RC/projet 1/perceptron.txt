@@ -1,0 +1,83 @@
+Présentation de l'Algorithme du Perceptron
+
+Bonjour à tous,
+
+Aujourd'hui, je vais vous présenter l'algorithme du perceptron implémenté dans mon code.
+
+Introduction
+
+Le perceptron est un algorithme d'apprentissage supervisé utilisé pour la classification binaire. Il ajuste les poids des caractéristiques d'entrée pour minimiser les erreurs de prédiction.
+
+Fonctionnement
+
+Initialisation des poids :
+Les poids sont initialisés à zéro.
+
+Calcul de la sortie :
+Pour chaque exemple d'entraînement, on calcule le produit scalaire des poids et des caractéristiques d'entrée, puis on applique une fonction d'activation qui renvoie 1 si le résultat est positif, sinon 0.
+
+Mise à jour des poids :
+Si la prédiction ne correspond pas à la sortie attendue, on ajuste les poids en fonction de l'erreur de prédiction en utilisant la formule :
+
+poids
++
+=
+taux d’apprentissage
+×
+(
+sortie attendue
+−
+sortie pr
+e
+ˊ
+dite                                                                                                                    
+)
+×
+entr
+e
+ˊ
+e
+poids+=taux d’apprentissage×(sortie attendue−sortie pr 
+e
+ˊ
+ dite)×entr 
+e
+ˊ
+ e
+Répétition :
+Ces étapes sont répétées pour un nombre défini d'itérations pour améliorer la précision.
+
+Exemple de Code
+
+Voici la partie principale du code :
+
+python
+Copier le code
+def perceptron(X, y, learning_rate=0.1, iterations=100):
+    poids = np.zeros(X.shape[1])
+    pour _ dans la gamme(iterations):
+        pour i dans la gamme(len(X)):
+            z = np.dot(poids, X[i])
+            y_pred = 1 si z >= 0 sinon 0
+            poids += learning_rate * (y[i] - y_pred) * X[i]
+    retour poids
+Visualisation
+
+Pour visualiser le séparateur linéaire appris par le perceptron :
+
+python
+Copier le code
+plt.scatter(X_train[:, 1], X_train[:, 2], c=y_train, cmap='bwr')
+x_vals = np.array([min(X_train[:, 1]), max(X_train[:, 1])])
+y_vals = -(poids[1] * x_vals + poids[0]) / poids[2]
+plt.plot(x_vals, y_vals, color='black')
+plt.xlabel('Longueur de Sépale')
+plt.ylabel('Longueur de Pétale')
+plt.title('Classification avec Perceptron')
+plt.show()
+Conclusion
+
+Le perceptron est un modèle simple et efficace pour les problèmes linéairement séparables, offrant une bonne introduction à l'apprentissage automatique et aux réseaux de neurones.
+
+Merci pour votre attention !
+

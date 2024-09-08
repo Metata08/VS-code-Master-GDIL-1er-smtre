@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paiement des frais de transport</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        select,
+        input {
+            width: 100%;
+            padding: 5px;
+        }
+
+        button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        #tarif {
+            font-weight: bold;
+            text-align: center;
+            font-size: 1.2em;
+            margin: 15px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Paiement des frais de transport</h1>
+    <form id="paymentForm">
+        <div class="form-group">
+            <label for="transport">Type de transport:</label>
+            <select id="transport" required>
+                <option value="">Sélectionnez un type</option>
+                <option value="bus">Bus</option>
+                <option value="metro">Métro</option>
+                <option value="train">Train</option>
+                <option value="tramway">Tramway</option>
+                <option value="velo">Velo rapide</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="destination">Destination:</label>
+            <input type="text" id="destination" required>
+        </div>
+        <div id="tarif">Tarif: 0 €</div>
+        <div class="form-group">
+            <label for="paymentMethod">Mode de paiement:</label>
+            <select id="paymentMethod" required>
+                <option value="">Sélectionnez un mode</option>
+                <option value="cb">Carte bancaire</option>
+                <option value="wallet">Portefeuille électronique</option>
+                <option value="nfc">Paiement sans contact</option>
+            </select>
+        </div>
+        <button type="submit">Payer</button>
+    </form>
+
+    <script>
+        const transportSelect = document.getElementById('transport');
+        const destinationInput = document.getElementById('destination');
+        const tarifDiv = document.getElementById('tarif');
+        const paymentForm = document.getElementById('paymentForm');
+
+        function calculateTarif() {
+            const transport = transportSelect.value;
+            const destination = destinationInput.value;
+            let tarif = 0;
+
+            // Logique simplifiée pour le calcul du tarif
+            if (transport === 'bus' || transport === 'tramway') {
+                tarif = 1.5;
+            } else if (transport === 'metro') {
+                tarif = 2;
+            } else if (transport === 'train') {
+                tarif = 5;
+            }
+
+            tarifDiv.textContent = `Tarif: ${tarif.toFixed(2)} €`;
+        }
+
+        transportSelect.addEventListener('change', calculateTarif);
+        destinationInput.addEventListener('input', calculateTarif);
+
+        paymentForm.addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Paiement effectué avec succès!');
+        });
+    </script>
+</body>
+
+</html>
