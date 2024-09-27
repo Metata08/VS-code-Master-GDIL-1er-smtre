@@ -1,3 +1,37 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # -*- coding: utf-8 -*-
 """
 Created on Wed Aug 21 12:21:13 2024
@@ -12,10 +46,9 @@ from keras.models import Sequential
 from keras.layers.core import Dense
 from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay
 import matplotlib.pyplot as plt
-import joblib
 
 #Chargement des données
-donnees = pd.read_csv(r'Rice_Cammeo_Osmancik.csv')
+donnees = pd.read_excel("rice_data.csv")
 
 #Séparation des caractéristiques (X) et les étiquettes (y)
 X = donnees.drop('Class', axis=1)
@@ -24,9 +57,6 @@ y = donnees['Class']
 #la normalisation
 Norm = MinMaxScaler()
 X_Norm = Norm.fit_transform(X)
-
-#sauvegarde de la normalisation
-joblib.dump(Norm,'Normalisation.pkl')
 
 #Encodage des étiquettes pour les transformer en valeurs numériques
 Encode = LabelEncoder()
@@ -46,7 +76,7 @@ model.add(Dense(len(Encode.classes_), activation='softmax'))
 model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 #Entraînement du modèle avec les données normalisées, 50 époques, taille de batch de 32, et 20% des données pour la validation
-entrainement_model = model.fit(X_Norm, y_Encode, epochs=50, batch_size=32, validation_split=0.2)
+entrainement_model = model.fit(X_Norm, y_Encode, epochs=50, learning_rate =00.1, validation_split=0.2)
 
 #Affichage du résumé du modèle pour visualiser la structure des couches et des paramètres
 model.summary()
@@ -71,6 +101,3 @@ matrice = confusion_matrix(y_Encode, y_pred_classes)
 disp = ConfusionMatrixDisplay(confusion_matrix=matrice, display_labels=Encode.classes_)
 disp.plot(cmap=plt.cm.Blues)
 plt.show()
-
-# Sauvegarder le modèle entraîné
-model.save("modele_classification.h5")

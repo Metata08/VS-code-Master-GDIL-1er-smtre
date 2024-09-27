@@ -1,0 +1,119 @@
+<!-- templates/index.html
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prédiction de variétés de riz</title>
+</head>
+<body>
+    <h1>Prédiction de variétés de riz</h1>
+    <form action="/predict" method="post">
+        <label for="feature1">Area Integer :</label><br>
+        <input type="text" id="feature1" name="0"><br>
+        <label for="1">Perimeter Real :</label><br>
+        <input type="text" id="feature2" name="feature2"><br>
+        <!-- Ajoute plus de champs selon tes caractéristiques ->
+        <label for="feature3">Major_Axis_Length Real :</label><br>
+        <input type="text" id="feature3" name="feature3"><br>
+
+        <label for="">Minor_Axis_Length Real :</label><br>
+        <input type="text" id="feature4" name="feature2"><br>
+
+        <label for="feature5">Eccentricity Real:</label><br>
+        <input type="text" id="feature5" name="feature5"><br>
+        
+        <label for="feature6">Convex_Area Integer :</label><br>
+        <input type="text" id="feature6" name="feature6"><br>
+
+        <label for="feature7"> Extent Real:</label><br>
+        <input type="text" id="feature7" name="feature7"><br>
+        
+        <input type="submit" value="Prédire">
+    </form>
+    <h2>{{ prediction_text }}</h2>
+</body>
+</html> -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prédiction du modèle</title>
+    <style>
+        body {
+            background-color: aliceblue;
+        }
+        .container{
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        h1{
+            text-align: center;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0;
+            box-sizing: border-box;
+            border-radius: 15px;
+            border: none;
+        }
+        button {
+            margin-top: 15px;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+            font-size: 25px;
+            border-radius: 15px;
+        }
+        button:hover {
+            background-color: #45a049;
+        }
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Test du modèl</h1>
+    <form action="/predict" method="post">
+        <label for="area">Area :</label>
+        <input type="text" id="area" name="area" required>
+
+        <label for="perimeter">Perimeter :</label>
+        <input type="text" id="perimeter" name="perimeter" required>
+
+        <label for="major_axis_length">Major Axis Length :</label>
+        <input type="text" id="major_axis_length" name="major_axis_length" required>
+
+        <label for="minor_axis_length">Minor Axis Length :</label>
+        <input type="text" id="minor_axis_length" name="minor_axis_length" required>
+
+        <label for="eccentricity">Eccentricity :</label>
+        <input type="text" id="eccentricity" name="eccentricity" required>
+
+        <label for="convex_area">Convex Area:</label>
+        <input type="text" name="convex_area" id="convex_area"><br>
+
+        <label for="extent">Extent:</label>
+        <input type="text" name="extent" id="extent"><br>
+
+        <button type="submit">Prédire</button>
+    </form>
+
+    <div class="result">
+        {% if prediction_text %}
+            <h3>{{ prediction_text }}</h3>
+        {% endif %}
+    </div>
+    </div>
+    
+</body>
+</html>

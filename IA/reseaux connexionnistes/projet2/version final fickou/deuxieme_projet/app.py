@@ -5,7 +5,7 @@ from sklearn.preprocessing import MinMaxScaler
 import joblib
 
 # Chargement
-model = load_model('model_rice.pkl')
+model = load_model('modele_classification.h5')
 Norm = joblib.load('Normalisation.pkl')
 
 app = Flask(__name__)

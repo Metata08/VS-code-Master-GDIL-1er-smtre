@@ -1,0 +1,46 @@
+Étape 1 – Configurez les commutateurs
+
+Étape 2 – Configurez les hôtes reliés au commutateur
+
+Étape 3 – Vérifiez la connectivité
+-les requetes aboutissent 
+
+Étape 4 – Affichez les options de la commande show interface VLAN
+
+Étape 5 – Affichez les informations d’interface VLAN
+- @_mac switch_A : 0001.97e9.7446
+- @_mac switch_B : 00e0.a32b.c0e2
+- c'est le commutateur A ayant  la plus basse adresse MAC 
+
+Étape 6 – Affichez la table de spanning tree sur chaque commutateur
+c- Racine: switch_A
+d- Priorite :32769
+e-
+f- FA 0/7
+g- FA 0/4
+h- Priorite :32769
+i-
+j- Port 1(FastEthernet0/1)
+k-Fa 0/4
+l- couleur : orange :indiquant que le port est bloque pour eviter les boucles reseaux
+
+Étape 7 – Réaffecter le pont racine
+
+- mode   -  Spanning tree operating mode
+  portfast - Spanning tree portfast options
+  vlan    - VLAN Switch Spanning Tree
+  
+Étape 8 – Affichez la table spanning tree du commutateur
+c- Racine: switch_B
+d-  Priorite : 4097
+e- FA 0/8
+f- FA 0/4
+g- Priorite :32769
+h- FA 0/1
+i- FA 0/4
+j-couleur : orange :indiquant que le port est bloque pour eviter les boucles reseaux
+
+Étape 9 – Vérifiez le fichier de la configuration courante sur le commutateur racine
+
+b- OUI :
+c- spanning-tree vlan 1 priority 4096

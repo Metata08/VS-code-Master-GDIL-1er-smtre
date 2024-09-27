@@ -42,7 +42,7 @@ model.add(Dense(len(Encode.classes_), activation='softmax'))
 model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
 #Entraînement du modèle avec les données normalisées, 50 époques, taille de batch de 32, et 20% des données pour la validation
-entrainement_model = model.fit(X_Norm, y_Encode, epochs=50, batch_size=32, validation_split=0.2)
+entrainement_model = model.fit(X_Norm, y_Encode, epochs=50, learning_rate =00.1, validation_split=0.2)
 
 #Affichage du résumé du modèle pour visualiser la structure des couches et des paramètres
 model.summary()
