@@ -1,0 +1,13 @@
+!SESSION 2024-09-27 13:09:13.116 -----------------------------------------------
+eclipse.buildId=4.33.0.20240905-0613
+java.version=21.0.4
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product /usr/lib/prey/versions/1.13.2/bin/prey-user
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.java.product /usr/lib/prey/versions/1.13.2/bin/prey-user
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-27 13:09:36.886
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY ch.qos.logback.classic 1 0 2024-09-27 13:10:18.569
+!MESSAGE Logback config file: /home/mg4/Documents/codeblocks/VS-code-Master-GDIL-1er-smtre/JAVA/.metadata/.plugins/org.eclipse.m2e.logback/logback.2.6.1.20240411-1122.xml
