@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ajouter une personne</title>
+</head>
+<body>
+    <h2>Ajouter une personne</h2>
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}  <!-- Affiche le formulaire de manière structurée -->
+        <button type="submit">Enregistrer</button>
+    </form>
+</body>
+</html>

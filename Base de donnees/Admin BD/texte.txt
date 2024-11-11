@@ -1,0 +1,64 @@
+Solution KaayPasse
+
+1-  Paiements Numériques
+Éliminer le besoin de monnaie physique grâce à une application mobile pour des transactions rapides et précises.
+
+2- Monnaie Virtuelle
+
+Faciliter les transactions et réduire les conflits liés à la gestion de la monnaie rendue.
+
+3- Réseau 5G
+Tirer parti de l'infrastructure 5G au Sénégal pour des transactions fiables et sécurisées.
+
+4- Expérience Utilisateur
+Offrir une interface conviviale et des fonctionnalités supplémentaires pour améliorer l'expérience des passagers.
+
+Processus d'Utilisation
+Identification :
+L'utilisateur s'identifie en tant que passager ou receveur.
+Code QR:
+Un code QR sécurisé est généré pour chaque paiement.
+Scan et Débit:
+Le receveur scanne le code QR et la transaction est effectuée.
+Confirmation :
+La transaction est automatiquement effectuée. Les deux parties reçoivent une notification confirmant le paiement et contenant les détails de la transaction.
+Modèle Économique:
+- Frais de Service
+KaayPas applique des frais de service de 0,7 % de la somme déposée.
+- Revenus Durables :
+Cette source de revenus garantit la pérennité du service tout en restant abordable pour les utilisateurs.
+- Compétitivité:
+KaayPas offre une solution de paiement compétitive et innovante sur le marché.
+
+
+Marché Cible
+Utilisateurs de Transports:
+Tous les usagers du transport en commun à Dakar.
+
+Adoption 5G:
+L'infrastructure 5G en pleine expansion offre une opportunité d'adoption rapide.
+Recherche de Solutions :
+Les passagers recherchent des solutions de paiement sans numéraire.
+
+Pourquoi Choisir KaayPasse ?
+
+Innovation:
+KaayPasse représente une avancée majeure pour le secteur du transport en commun.
+Expérience Utilisateur :
+Notre solution améliore considérablement l'expérience des passagers.
+Opportunité de Partenariat :
+Nous invitons les investisseurs et opérateurs à se joindre à nous.
+
+
+Rejoignez-nous pour Révolutionner le Transport
+
+Contactez-nous:
+Découvrez comment MG4TECH peut transformer votre entreprise.
+
+Devenez Partenaire:
+Rejoignez-nous pour révolutionner le transport en commun à Dakar.
+
+Investissez:
+Soyez acteur de ce changement en investissant dans KaayPasse.
+
+JËRËJËF Ci sen Téwlou ! 

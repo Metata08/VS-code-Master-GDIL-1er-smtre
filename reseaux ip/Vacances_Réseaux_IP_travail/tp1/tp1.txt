@@ -1,0 +1,33 @@
+Tâche 1 : câblage du réseau
+Reponse :
+-a- cable droit 
+-b- cable droit 
+-c- Copper cross-Over 
+
+
+Tâche 2 : effacement et recharge des informations des routeurs
+
+Tâche 3 : Execution d'une configuration de base du routeur R1
+	Étape 5 : désactivation de la recherche DNS
+	-La recherche DNS est désactivée dans les travaux pratiques pour éviter des retards inutiles lors de la configuration. Si une adresse IP incorrecte est saisie, le routeur essaierait de la résoudre en nom de domaine, ce qui peut ralentir le processus.
+	-En production, désactiver la recherche DNS pourrait empêcher le routeur de résoudre les noms de domaine, rendant difficile l'accès aux dispositifs ou services qui nécessitent cette résolution.
+
+	Étape 6 :configuration du mdp pour le mode d'execution 
+	-La commande enable secret offre un chiffrement plus sécurisé que enable password. Ainsi, il n'est pas nécessaire d'utiliser les deux, car enable secret remplace enable password.
+
+
+	Étape 7 : configuration d'une banniere du message du jour 
+	-Une bannière de Message du Jour (MOTD) est essentielle pour des raisons de sécurité et d'administration. Elle avertit les utilisateurs non autorisés qu'ils accèdent à un dispositif sécurisé, ce qui peut servir d'avertissement légal.
+
+	Étape 13 : enregistrement de la configuration de R1
+	-La version abrégée de la commande copy running-config startup-config est wr (pour write).
+
+Tâche 4 :Execution d'une configuration de base 
+
+Tâche 5 : configuration des adresses IP sur les ordinateurs hôtes
+
+Tâche 6 : vérification et test des configurations
+
+Tâche 7 : remarques générales
+
+Tâche 8 : documentation

@@ -1,0 +1,37 @@
+## TP0 configuration de base 
+
+etape 1:Accédez au mode privilégié
+	
+
+etape 2:Examinez la configuration actuelle du commutateur
+b-  on a 24 interfaces .
+c- vty 0 4
+   vty 5 15	
+e- il y a pas encore de configuration 
+
+etape 3:Attribuez un nom au commutateur 
+
+etape 4:Examinez la configuration courante actuelle
+b- non,pas de mot de passe defini
+c- le non d'hotye de ce commutateur est: ALSwitch 
+
+etape 5/6 :Definissez les mots de passe d’accès (1900 : passez à l’étape 6)
+b- je pense que c'est le mdp enable 
+
+etape 7:Configurez l’accès de couche 3 au commutateur
+
+etape 8: Vérifiez les paramètres des VLAN de gestion (1900 : passez à l’étape 10)
+b- la bande passante : BW = 100000 Kbit/s
+c- le VLAN 1 est eteint , le protocole de ligne est eteint 
+e- la strategie de fille d'attente est : FIFO 
+
+etape 9: Enregistrez la configuration
+
+etape 10: Examinez le fichier de configuration de démarrage (1900 : passez à l’étape 11)
+
+b- toutes les informations concernants au switch
+c- Modifications : le mdp , l' @ip du switch ...
+
+etape 11: Quittez le commutateur
+
+

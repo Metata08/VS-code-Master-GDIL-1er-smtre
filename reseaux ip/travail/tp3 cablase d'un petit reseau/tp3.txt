@@ -1,0 +1,5 @@
+Tâche 1 : connexion des périphériques inclus dans la configuration de travaux
+pratiques type
+
+Tâche 2 : visualisation de la configuration de travaux pratiques type dans la zone
+Physical Workspace

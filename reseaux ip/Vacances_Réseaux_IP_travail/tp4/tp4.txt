@@ -1,0 +1,7 @@
+Tâche 0 : Création d’un prototype de réseau
+
+	Étape 1 : configuration de la topologie du réseau
+
+	Étape 2 : test de la connectivité entre PC0 et PC1
+
+Tâche 1 : Configuration du routage statique

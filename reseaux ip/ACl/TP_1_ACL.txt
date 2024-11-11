@@ -1,0 +1,40 @@
+TP 11.2.1a Configuration de listes de contrôle d'accès standard
+
+
+Étape 1 Configurez le nom d’hôte et les mots de passe sur le routeur Gadsden
+
+Étape 2 Configurez les hôtes sur le segment Ethernet
+
+Étape 3 Enregistrez les informations de configuration en mode privilégié
+
+Étape 4 Envoyez une requête ping à la passerelle par défaut à partir de chacun des deux
+hôtes pour confirmer la connectivité
+
+Étape 5 Interdisez l’accès à l’interface Ethernet à partir des hôtes
+c. Cette instruction permet tout autre trafic (n'importe quelle adresse IP source) à passer par le routeur. L'option any est un raccourci pour dire "n'importe quelle adresse IP", ce qui permet tout le trafic non spécifiquement bloqué par une règle précédente dans la liste ACL.
+
+Étape 6 Envoyez des requêtes ping au routeur à partir des hôtes
+a. OUI
+b. L'ACL n'est pas encore activé
+
+Étape 7 – Appliquez la liste de contrôle d’accès à l’interface
+
+Étape 8 Envoyez des requêtes ping au routeur à partir des hôtes
+a.NON
+b.ACl est appliqué a l' interface 
+
+Étape 9 Créez une nouvelle liste de contrôle d’accès
+c. permit eny n'est pas necessaire car il est deja applique avec le 1er ACL apllique 
+
+Étape 10 Appliquez la liste de contrôle d’accès à l’interface de routeur appropriée
+
+Étape 11 Envoyez des requêtes ping au routeur à partir des hôtes
+
+a.oui 
+b.le numerode son @ip est impair 
+c.oui
+d.le numerode son @ip est impair 
+
+
+
+TP 11.2.1b Listes de contrôle d’accès standard

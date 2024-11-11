@@ -1,0 +1,10 @@
+Exercie 1 :
+
+1- OK 
+2- Pour obtenir un fichier executable à partir d-un fichier Flex  , il faut : 
+	1. Ecriver votre fichier flex avec des régles d'analyses lexicales(Exple: analyseur.l)
+	2.Générer le fichier C avec FLex  Cmpiler le fichier gener<é(Commande : flex analyseur.l)
+	3.Compiler le fichier généré avec GCC pour obtenir un executable 
+	4.Exécuter le fichier 
+	
+3-ce programme compte le nombres de caracteres et de retour a la ligne 

@@ -1,0 +1,2 @@
+Tâche 1 : connexion des périphériques inclus dans la configuration de travaux
+pratiques type

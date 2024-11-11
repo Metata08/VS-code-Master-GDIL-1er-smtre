@@ -1,0 +1,42 @@
+Étape 1 – Configurez le commutateur
+
+Étape 2 – Configurez les hôtes reliés au commutateur
+
+Étape 3 – Vérifiez la connectivité
+
+oui ,les requetes de ping aboutissent
+
+Étape 4 – Enregistrez les adresses MAC sur les hôtes
+pc1: physical Address : 0002.4AAF.9B7E
+pc4: physical Address : 0090.0C16.E261
+
+Étape 5 – Déterminez les adresses MAC que le commutateur a acquises
+-il y a 2 adr dynamiques
+-il y a 2 adr mac
+-oui , les adr correspondent
+
+Étape 7 – Configurez une adresse MAC statique
+
+Étape 8 – Vérifiez les résultats
+- il y a 1 adr static 
+
+Étape 9 – Listez les options de sécurité des ports
+
+Étape 10 – Vérifiez les résultats
+- l'@_static apparait alors que l'autre qui est dynamique n'apparait pas 
+
+Étape 11 – Affichez le fichier de la configuration courante
+
+Étape 12 – Limitez le nombre d’hôtes sur chaque port
+
+Étape 13 – Déplacez l’hôte
+- la requete ping a abouti 
+- car la communication marche avec l'@_dynamique correspondante 
+
+
+Étape 14 – Effacez la table MAC
+
+Étape 15 – Modifiez les paramètres de sécurité
+
+Étape 16 – Vérifiez les résultats
+

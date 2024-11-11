@@ -1,0 +1,10 @@
+    Minimisation par partitionnement
+    Soit l’automate défini par la table de transition, à minimiser par la méthode des partitionnements.
+
+
+
+    (δ,0,1,type)
+    (A,A,B,DEBUT)
+    (B,C,A,NON FINAL)
+    (C,C,C, FINAL)
+    
