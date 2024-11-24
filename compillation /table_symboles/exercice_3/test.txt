@@ -1,0 +1,13 @@
+int compteur = 10;
+int masque = 0xFF;
+int octal = 012;
+float pi = 3.14;
+char lettre = 'A';
+
+if(compteur <= masque){
+	while(compteur>0){
+	compteur = compteur - 1;
+	}
+}else{
+	compteur = 5;
+}

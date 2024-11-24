@@ -1,0 +1,27 @@
+Symbole *ajouter_symb(Symbole *tab, char *m, char *t, char *e)
+{
+	Symbole *nouvSym = (Symbole *)malloc(sizeof(Symbole));
+	nouvSym->mot = (char *)malloc(sizeof(char) * strlen(m));
+	nouvSym->type = (char *)malloc(sizeof(char) * strlen(t));
+	nouvSym->etiquette = (char *)malloc(sizeof(char) * strlen(e));
+
+	strcpy(nouvSym->mot, m);
+	strcpy(nouvSym->type, t);
+	strcpy(nouvSym->etiquette, e);
+	nouvSym->suiv = NULL;
+
+	if (!tab)
+	{
+		return nouvSym;
+	}
+	else
+	{
+		Symbole *p = tab;
+		while (p->suiv)
+		{
+			p = p->suiv;
+		}
+		p->suiv = nouvSym;
+		return tab;
+	}
+}
