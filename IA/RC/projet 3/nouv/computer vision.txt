@@ -1,0 +1,15 @@
+COMPUTER VISION : 
+
+capture de mon public :
+-  Saviez-vous que votre téléphone, qu'il s'agisse d'un Android ou surtout d'un iPhone (iOS), utilise la Computer Vision chaque jour pour analyser votre visage et déverrouiller l’écran en un instant ? Cette technologie révolutionnaire est devenue une partie intégrante de notre quotidien !
+
+
+INTRODUCTION :
+
+Chronologie :
+
+L’intelligence artificielle (IA) est aujourd’hui une technologie omniprésente, transformant des domaines aussi variés que le multimédia , l’éducation ,la santé, les transports ou encore l'industrie . Elle repose sur l’idée d’imiter l’intelligence humaine, permettant à des machines d’apprendre, de comprendre et d’agir de manière autonome.
+
+Parmi les multiples branches de l’IA, la vision par ordinateur ou la computer vision se distingue par son objectif ambitieux : donner aux machines la capacité de voir et d’interpréter le monde visuel, tout comme un être humain. Dans ce mini cours , nous allons explorer cette technologie fascinante , en commençant par répondre à une question essentielle : Qu’est-ce que le Computer Vision ?
+
+Alors maintenant je vais laisser la parole a mon coequipier Fickou  vous  donner la repons e a cette question qui est , je rappelle , Qu’est-ce que le Computer Vision ?

@@ -1,6 +1,6 @@
 import requests
 
-url = "http://foad.ugb.sn/login/index.php"
+url = "https://icp-o2ac17c.gamma.site"
 
 response = requests.get(url,auth=('admin','admin'))
 

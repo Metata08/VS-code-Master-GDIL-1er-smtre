@@ -15,7 +15,7 @@ int a;
         printf("Bonjour , ca marche sur");
         break;
     }
-pppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppppp
+
 a=atoi("6a1");
 printf(" a = %d",a);
     return 0;

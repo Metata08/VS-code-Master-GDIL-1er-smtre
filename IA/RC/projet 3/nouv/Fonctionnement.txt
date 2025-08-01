@@ -1,0 +1,45 @@
+Le fonctionnement de la Computer Vision repose sur l’extraction, l’analyse et 
+l’interprétation des informations visuelles (images ou vidéos) pour permettre 
+à un ordinateur de "comprendre" ces données.
+
+
+1. Acquisition des données visuelles
+Les données d'entrée peuvent provenir :
+ D'une caméra (images en direct ou vidéos).
+ De bases de données d'images (comme CIFAR-10, COCO, ImageNet).
+ De fichiers locaux (par ex., des photos sur un disque dur).
+
+2. Prétraitement des données
+Avant d’analyser les données, il est souvent nécessaire de les nettoyer ou 
+de les transformer. Les étapes communes incluent :
+  Redimensionnement : Adapter la taille de l’image à celle requise par un modèle.
+  Normalisation : Mettre les pixels dans une plage entre 0 et 1 pour faciliter les
+  calculs.
+  Réduction du bruit : Éliminer les irrégularités dans l’image.
+  
+
+3. Extraction des caractéristiques
+Pour comprendre une image, il faut extraire des informations importantes :
+ Caractéristiques simples : Contours, bords, textures, couleurs, formes.
+ Caractéristiques complexes : Apprises automatiquement à l’aide de modèles de deep 
+ learning comme les réseaux de neurones convolutifs (CNN).
+
+4. Analyse et interprétation
+À partir des caractéristiques extraites, l’algorithme effectue des tâches spécifiques :
+  Classification : Associer une image à une catégorie (par ex., "chien", "chat").
+  Détection d’objets : Identifier et localiser des objets spécifiques dans une image.
+  Segmentation : Diviser une image en régions significatives (par ex., séparer le fond d'un objet).
+
+5. Décisions ou actions
+Une fois les informations analysées, le système peut effectuer des actions automatisées 
+basées sur les résultats. Par exemple:
+  Déclencher une alarme si un intrus est détecté.
+  Diriger une voiture autonome en évitant les obstacles.
+  Aider un médecin à diagnostiquer une maladie.
+
+Outils et frameworks populaires
+OpenCV : Pour le traitement d'images classique.
+TensorFlow et Keras : Pour les modèles de deep learning.
+PyTorch : Pour une approche plus flexible de la Computer Vision.
+YOLO (You Only Look Once) : Pour la détection rapide d'objets.
+Mask R-CNN : Pour la segmentation d’objets.

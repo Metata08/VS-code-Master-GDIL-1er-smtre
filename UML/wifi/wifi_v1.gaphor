@@ -1,0 +1,852 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gaphor xmlns="http://gaphor.sourceforge.net/model" version="3.0" gaphor-version="2.27.0">
+<StyleSheet id="58d6989a-66f8-11ec-b4c8-0456e5e540ed">
+<styleSheet>
+<val>diagram {
+ /* line-style: sloppy 0.3; */
+}
+
+controlflow {
+  dash-style: 0;
+}
+
+
+/* The background you see in exported diagrams: */
+diagram {
+  background-color: transparent;
+}
+
+/* Use a slightly grey background in the editor: */
+@media light-mode {
+  diagram {
+    background-color: white;
+  }
+}
+
+/* And anthracite a slightly grey background in the editor: */
+@media dark-mode {
+  diagram {
+    background-color:black;
+ 
+  }
+}</val>
+</styleSheet>
+</StyleSheet>
+<Package id="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed">
+<name>
+<val>Model Name Here</val>
+</name>
+<nestedPackage>
+<reflist>
+<ref refid="a021290e-71b1-11ec-a409-f47b099bf663"/>
+<ref refid="c254a76c-71b1-11ec-a409-f47b099bf663"/>
+<ref refid="cccf183a-71b1-11ec-a409-f47b099bf663"/>
+<ref refid="f3a82730-71b1-11ec-a409-f47b099bf663"/>
+</reflist>
+</nestedPackage>
+<ownedDiagram>
+<reflist>
+<ref refid="c526f9b3-ba54-11ef-af88-955d90936786"/>
+</reflist>
+</ownedDiagram>
+<ownedType>
+<reflist>
+<ref refid="c8316f09-ba54-11ef-b0c4-955d90936786"/>
+<ref refid="ccc6a134-ba54-11ef-bf8b-955d90936786"/>
+<ref refid="d347b75d-ba54-11ef-89c6-955d90936786"/>
+</reflist>
+</ownedType>
+</Package>
+<Package id="a021290e-71b1-11ec-a409-f47b099bf663">
+<name>
+<val>1. Use Cases</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="0c81912e-71b2-11ec-a409-f47b099bf663"/>
+<ref refid="3132c19a-71b3-11ec-a409-f47b099bf663"/>
+</reflist>
+</ownedDiagram>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+</Package>
+<Package id="c254a76c-71b1-11ec-a409-f47b099bf663">
+<name>
+<val>2. Domain Analysis</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="06ecc092-71b4-11ec-a409-f47b099bf663"/>
+</reflist>
+</ownedDiagram>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+</Package>
+<Package id="cccf183a-71b1-11ec-a409-f47b099bf663">
+<name>
+<val>3. Architectural Design</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="37edd9b4-71b5-11ec-a409-f47b099bf663"/>
+<ref refid="ad3969b8-71b5-11ec-a409-f47b099bf663"/>
+</reflist>
+</ownedDiagram>
+<ownedType>
+<reflist>
+<ref refid="b73251a0-71b5-11ec-a409-f47b099bf663"/>
+</reflist>
+</ownedType>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+</Package>
+<Package id="f3a82730-71b1-11ec-a409-f47b099bf663">
+<name>
+<val>4. Detailed Design</val>
+</name>
+<ownedDiagram>
+<reflist>
+<ref refid="585f224c-71b6-11ec-a409-f47b099bf663"/>
+<ref refid="0b5ba60e-71b7-11ec-a409-f47b099bf663"/>
+</reflist>
+</ownedDiagram>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+</Package>
+<Diagram id="0c81912e-71b2-11ec-a409-f47b099bf663">
+<diagramType>
+<val>uc</val>
+</diagramType>
+<element>
+<ref refid="a021290e-71b1-11ec-a409-f47b099bf663"/>
+</element>
+<name>
+<val>Use Cases</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="fe29995e-71b2-11ec-a409-f47b099bf663"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Comment id="fe29884c-71b2-11ec-a409-f47b099bf663">
+<body>
+<val>Analyze functional requirements by
+identifying user roles – actors – and
+associating them to their use cases.</val>
+</body>
+<presentation>
+<reflist>
+<ref refid="fe29995e-71b2-11ec-a409-f47b099bf663"/>
+</reflist>
+</presentation>
+</Comment>
+<CommentItem id="fe29995e-71b2-11ec-a409-f47b099bf663">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 93.76953125, 79.1953125)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>258.0</val>
+</width>
+<height>
+<val>110.0</val>
+</height>
+<diagram>
+<ref refid="0c81912e-71b2-11ec-a409-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="fe29884c-71b2-11ec-a409-f47b099bf663"/>
+</subject>
+</CommentItem>
+<Diagram id="3132c19a-71b3-11ec-a409-f47b099bf663">
+<diagramType>
+<val>act</val>
+</diagramType>
+<element>
+<ref refid="a021290e-71b1-11ec-a409-f47b099bf663"/>
+</element>
+<name>
+<val>Use Case Scenarios</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="7ff4998e-71b3-11ec-a409-f47b099bf663"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Comment id="7ff48ef8-71b3-11ec-a409-f47b099bf663">
+<body>
+<val>Model abstract use case implementation by creating activity diagrams visualizing activity flows for primary and secondary use case scenarios.</val>
+</body>
+<presentation>
+<reflist>
+<ref refid="7ff4998e-71b3-11ec-a409-f47b099bf663"/>
+</reflist>
+</presentation>
+</Comment>
+<CommentItem id="7ff4998e-71b3-11ec-a409-f47b099bf663">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 58.0, 79.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>364.0</val>
+</width>
+<height>
+<val>95.0</val>
+</height>
+<diagram>
+<ref refid="3132c19a-71b3-11ec-a409-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="7ff48ef8-71b3-11ec-a409-f47b099bf663"/>
+</subject>
+</CommentItem>
+<Diagram id="06ecc092-71b4-11ec-a409-f47b099bf663">
+<diagramType>
+<val>cls</val>
+</diagramType>
+<element>
+<ref refid="c254a76c-71b1-11ec-a409-f47b099bf663"/>
+</element>
+<name>
+<val>Domain Entities</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="b2b559de-71b4-11ec-a409-f47b099bf663"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Comment id="b2b54e26-71b4-11ec-a409-f47b099bf663">
+<body>
+<val>Perform domain analysis by modeling domain entities and their relationships using simplified class diagram. This diagram will serve as a visual dictionary of concepts. It will also be a starting point for your design-level data model.</val>
+</body>
+<presentation>
+<reflist>
+<ref refid="b2b559de-71b4-11ec-a409-f47b099bf663"/>
+</reflist>
+</presentation>
+</Comment>
+<CommentItem id="b2b559de-71b4-11ec-a409-f47b099bf663">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 46.015625, 81.69921875)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>400.0</val>
+</width>
+<height>
+<val>100.0</val>
+</height>
+<diagram>
+<ref refid="06ecc092-71b4-11ec-a409-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="b2b54e26-71b4-11ec-a409-f47b099bf663"/>
+</subject>
+</CommentItem>
+<Diagram id="37edd9b4-71b5-11ec-a409-f47b099bf663">
+<diagramType>
+<val>pkg</val>
+</diagramType>
+<element>
+<ref refid="cccf183a-71b1-11ec-a409-f47b099bf663"/>
+</element>
+<name>
+<val>Package Dependencies</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="098cfa2c-71b6-11ec-a409-f47b099bf663"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Diagram id="ad3969b8-71b5-11ec-a409-f47b099bf663">
+<diagramType>
+<val>sd</val>
+</diagramType>
+<element>
+<ref refid="cccf183a-71b1-11ec-a409-f47b099bf663"/>
+</element>
+<name>
+<val>Interactions</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="2d10bd3a-71b6-11ec-a409-f47b099bf663"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Interaction id="b73251a0-71b5-11ec-a409-f47b099bf663">
+<name>
+<val>Interaction</val>
+</name>
+<package>
+<ref refid="cccf183a-71b1-11ec-a409-f47b099bf663"/>
+</package>
+</Interaction>
+<Comment id="098cef6e-71b6-11ec-a409-f47b099bf663">
+<body>
+<val>Prepare package dependencies diagram to group your implementation classes in appropriate way. This will help you maintain the code well structured and avoid design flaws such as cyclic dependencies or dependencies on unstable parts</val>
+</body>
+<presentation>
+<reflist>
+<ref refid="098cfa2c-71b6-11ec-a409-f47b099bf663"/>
+</reflist>
+</presentation>
+</Comment>
+<CommentItem id="098cfa2c-71b6-11ec-a409-f47b099bf663">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 106.71484375, 51.49999999999997)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>271.5703125</val>
+</width>
+<height>
+<val>144.0</val>
+</height>
+<diagram>
+<ref refid="37edd9b4-71b5-11ec-a409-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="098cef6e-71b6-11ec-a409-f47b099bf663"/>
+</subject>
+</CommentItem>
+<Comment id="2d10b29a-71b6-11ec-a409-f47b099bf663">
+<body>
+<val>Model component interactions for use case scenarios in order to find out new methods in
+existing classes or even new classes with specific responsibilities.</val>
+</body>
+<presentation>
+<reflist>
+<ref refid="2d10bd3a-71b6-11ec-a409-f47b099bf663"/>
+</reflist>
+</presentation>
+</Comment>
+<CommentItem id="2d10bd3a-71b6-11ec-a409-f47b099bf663">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 43.0, 73.0)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>322.0</val>
+</width>
+<height>
+<val>93.0</val>
+</height>
+<diagram>
+<ref refid="ad3969b8-71b5-11ec-a409-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="2d10b29a-71b6-11ec-a409-f47b099bf663"/>
+</subject>
+</CommentItem>
+<Diagram id="585f224c-71b6-11ec-a409-f47b099bf663">
+<diagramType>
+<val>cls</val>
+</diagramType>
+<element>
+<ref refid="f3a82730-71b1-11ec-a409-f47b099bf663"/>
+</element>
+<name>
+<val>Detailed Class Design</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="6e4703fe-71b6-11ec-a409-f47b099bf663"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Comment id="6e46f7ba-71b6-11ec-a409-f47b099bf663">
+<body>
+<val>Create detailed class diagrams to capture your object-oriented data model.</val>
+</body>
+<presentation>
+<reflist>
+<ref refid="6e4703fe-71b6-11ec-a409-f47b099bf663"/>
+</reflist>
+</presentation>
+</Comment>
+<CommentItem id="6e4703fe-71b6-11ec-a409-f47b099bf663">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 72.0, 76.5)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>215.0</val>
+</width>
+<height>
+<val>76.0</val>
+</height>
+<diagram>
+<ref refid="585f224c-71b6-11ec-a409-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="6e46f7ba-71b6-11ec-a409-f47b099bf663"/>
+</subject>
+</CommentItem>
+<Diagram id="0b5ba60e-71b7-11ec-a409-f47b099bf663">
+<diagramType>
+<val>cmp</val>
+</diagramType>
+<element>
+<ref refid="f3a82730-71b1-11ec-a409-f47b099bf663"/>
+</element>
+<name>
+<val>Implementation Architecture</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="6203ccac-71b7-11ec-a409-f47b099bf663"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Comment id="6203b92e-71b7-11ec-a409-f47b099bf663">
+<body>
+<val>Define the major artifacts that manifest implementation of your components. Indicate how they are deployed on hardware nodes, their inter-dependencies and communication protocols.</val>
+</body>
+<presentation>
+<reflist>
+<ref refid="6203ccac-71b7-11ec-a409-f47b099bf663"/>
+</reflist>
+</presentation>
+</Comment>
+<CommentItem id="6203ccac-71b7-11ec-a409-f47b099bf663">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, -7.59375, 75.08984375)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>271.0</val>
+</width>
+<height>
+<val>129.0</val>
+</height>
+<diagram>
+<ref refid="0b5ba60e-71b7-11ec-a409-f47b099bf663"/>
+</diagram>
+<subject>
+<ref refid="6203b92e-71b7-11ec-a409-f47b099bf663"/>
+</subject>
+</CommentItem>
+<Diagram id="c526f9b3-ba54-11ef-af88-955d90936786">
+<diagramType>
+<val>cls</val>
+</diagramType>
+<element>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</element>
+<name>
+<val>wifi</val>
+</name>
+<ownedPresentation>
+<reflist>
+<ref refid="c83215c8-ba54-11ef-a3b2-955d90936786"/>
+<ref refid="ccc73636-ba54-11ef-8626-955d90936786"/>
+<ref refid="d348432a-ba54-11ef-a936-955d90936786"/>
+<ref refid="c393fe66-ba5a-11ef-b726-955d90936786"/>
+<ref refid="9dc06f6b-ba5a-11ef-ac12-955d90936786"/>
+<ref refid="c79c54b5-ba5a-11ef-8f85-955d90936786"/>
+</reflist>
+</ownedPresentation>
+</Diagram>
+<Class id="c8316f09-ba54-11ef-b0c4-955d90936786">
+<name>
+<val>Membre</val>
+</name>
+<note>
+<val>les membres inscrits dans le wifi</val>
+</note>
+<ownedAttribute>
+<reflist>
+<ref refid="e699726f-ba54-11ef-92db-955d90936786"/>
+<ref refid="f858d375-ba54-11ef-8ade-955d90936786"/>
+<ref refid="fd5804c0-ba54-11ef-b003-955d90936786"/>
+<ref refid="0920c73a-ba55-11ef-8d8a-955d90936786"/>
+<ref refid="18522fac-ba55-11ef-a19a-955d90936786"/>
+</reflist>
+</ownedAttribute>
+<ownedOperation>
+<reflist>
+<ref refid="47d655b2-ba55-11ef-8a3d-955d90936786"/>
+</reflist>
+</ownedOperation>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="c83215c8-ba54-11ef-a3b2-955d90936786"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="c83215c8-ba54-11ef-a3b2-955d90936786">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 266.34765625, -48.3125)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>209.0</val>
+</width>
+<height>
+<val>159.0</val>
+</height>
+<diagram>
+<ref refid="c526f9b3-ba54-11ef-af88-955d90936786"/>
+</diagram>
+<subject>
+<ref refid="c8316f09-ba54-11ef-b0c4-955d90936786"/>
+</subject>
+</ClassItem>
+<Class id="ccc6a134-ba54-11ef-bf8b-955d90936786">
+<name>
+<val>Appareil</val>
+</name>
+<note>
+<val>les ardesses mac des appareils	</val>
+</note>
+<ownedAttribute>
+<reflist>
+<ref refid="6e9dcc84-ba55-11ef-88f1-955d90936786"/>
+<ref refid="780ec6c7-ba55-11ef-8826-955d90936786"/>
+</reflist>
+</ownedAttribute>
+<ownedOperation>
+<reflist>
+<ref refid="9a976a98-ba55-11ef-902d-955d90936786"/>
+<ref refid="a7426d0b-ba55-11ef-96bf-955d90936786"/>
+</reflist>
+</ownedOperation>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="ccc73636-ba54-11ef-8626-955d90936786"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="ccc73636-ba54-11ef-8626-955d90936786">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 740.5741577148438, -32.578125)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>109.0</val>
+</width>
+<height>
+<val>125.0</val>
+</height>
+<diagram>
+<ref refid="c526f9b3-ba54-11ef-af88-955d90936786"/>
+</diagram>
+<subject>
+<ref refid="ccc6a134-ba54-11ef-bf8b-955d90936786"/>
+</subject>
+</ClassItem>
+<Class id="d347b75d-ba54-11ef-89c6-955d90936786">
+<name>
+<val>DatePayement</val>
+</name>
+<ownedAttribute>
+<reflist>
+<ref refid="f9d9fce8-ba56-11ef-9919-955d90936786"/>
+</reflist>
+</ownedAttribute>
+<package>
+<ref refid="58d6c2e8-66f8-11ec-b4c8-0456e5e540ed"/>
+</package>
+<presentation>
+<reflist>
+<ref refid="d348432a-ba54-11ef-a936-955d90936786"/>
+</reflist>
+</presentation>
+</Class>
+<ClassItem id="d348432a-ba54-11ef-a936-955d90936786">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 556.5311279296875, 216.40234375)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>123.0</val>
+</width>
+<height>
+<val>74.0</val>
+</height>
+<diagram>
+<ref refid="c526f9b3-ba54-11ef-af88-955d90936786"/>
+</diagram>
+<subject>
+<ref refid="d347b75d-ba54-11ef-89c6-955d90936786"/>
+</subject>
+</ClassItem>
+<Property id="e699726f-ba54-11ef-92db-955d90936786">
+<class_>
+<ref refid="c8316f09-ba54-11ef-b0c4-955d90936786"/>
+</class_>
+<name>
+<val>num_mem</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<Property id="f858d375-ba54-11ef-8ade-955d90936786">
+<class_>
+<ref refid="c8316f09-ba54-11ef-b0c4-955d90936786"/>
+</class_>
+<name>
+<val>prenom</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<Property id="fd5804c0-ba54-11ef-b003-955d90936786">
+<class_>
+<ref refid="c8316f09-ba54-11ef-b0c4-955d90936786"/>
+</class_>
+<name>
+<val>nom</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<Property id="0920c73a-ba55-11ef-8d8a-955d90936786">
+<class_>
+<ref refid="c8316f09-ba54-11ef-b0c4-955d90936786"/>
+</class_>
+<name>
+<val>num_chambre</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<Property id="18522fac-ba55-11ef-a19a-955d90936786">
+<class_>
+<ref refid="c8316f09-ba54-11ef-b0c4-955d90936786"/>
+</class_>
+<name>
+<val>tel</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<Operation id="47d655b2-ba55-11ef-8a3d-955d90936786">
+<class_>
+<ref refid="c8316f09-ba54-11ef-b0c4-955d90936786"/>
+</class_>
+<name>
+<val>membre</val>
+</name>
+<ownedParameter>
+<reflist>
+<ref refid="47d93ba9-ba55-11ef-9348-955d90936786"/>
+<ref refid="47db56ab-ba55-11ef-bc72-955d90936786"/>
+<ref refid="47dcef5f-ba55-11ef-83cc-955d90936786"/>
+<ref refid="47de7039-ba55-11ef-8752-955d90936786"/>
+<ref refid="47e00145-ba55-11ef-80d2-955d90936786"/>
+</reflist>
+</ownedParameter>
+</Operation>
+<Parameter id="47d93ba9-ba55-11ef-9348-955d90936786">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>n_m</val>
+</name>
+<ownerFormalParam>
+<ref refid="47d655b2-ba55-11ef-8a3d-955d90936786"/>
+</ownerFormalParam>
+</Parameter>
+<Parameter id="47db56ab-ba55-11ef-bc72-955d90936786">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>p</val>
+</name>
+<ownerFormalParam>
+<ref refid="47d655b2-ba55-11ef-8a3d-955d90936786"/>
+</ownerFormalParam>
+</Parameter>
+<Parameter id="47dcef5f-ba55-11ef-83cc-955d90936786">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>n</val>
+</name>
+<ownerFormalParam>
+<ref refid="47d655b2-ba55-11ef-8a3d-955d90936786"/>
+</ownerFormalParam>
+</Parameter>
+<Parameter id="47de7039-ba55-11ef-8752-955d90936786">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>ch</val>
+</name>
+<ownerFormalParam>
+<ref refid="47d655b2-ba55-11ef-8a3d-955d90936786"/>
+</ownerFormalParam>
+</Parameter>
+<Parameter id="47e00145-ba55-11ef-80d2-955d90936786">
+<direction>
+<val>in</val>
+</direction>
+<name>
+<val>tel</val>
+</name>
+<ownerFormalParam>
+<ref refid="47d655b2-ba55-11ef-8a3d-955d90936786"/>
+</ownerFormalParam>
+</Parameter>
+<Property id="6e9dcc84-ba55-11ef-88f1-955d90936786">
+<class_>
+<ref refid="ccc6a134-ba54-11ef-bf8b-955d90936786"/>
+</class_>
+<name>
+<val>adr_mac_pc</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<Property id="780ec6c7-ba55-11ef-8826-955d90936786">
+<class_>
+<ref refid="ccc6a134-ba54-11ef-bf8b-955d90936786"/>
+</class_>
+<name>
+<val>adr_mac_mb</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<Operation id="9a976a98-ba55-11ef-902d-955d90936786">
+<class_>
+<ref refid="ccc6a134-ba54-11ef-bf8b-955d90936786"/>
+</class_>
+<name>
+<val>get_adr</val>
+</name>
+</Operation>
+<Operation id="a7426d0b-ba55-11ef-96bf-955d90936786">
+<class_>
+<ref refid="ccc6a134-ba54-11ef-bf8b-955d90936786"/>
+</class_>
+<name>
+<val>set_adr</val>
+</name>
+</Operation>
+<Property id="f9d9fce8-ba56-11ef-9919-955d90936786">
+<class_>
+<ref refid="d347b75d-ba54-11ef-89c6-955d90936786"/>
+</class_>
+<name>
+<val>date_depaye</val>
+</name>
+<visibility>
+<val>private</val>
+</visibility>
+</Property>
+<Line id="9dc06f6b-ba5a-11ef-ac12-955d90936786">
+<diagram>
+<ref refid="c526f9b3-ba54-11ef-af88-955d90936786"/>
+</diagram>
+<horizontal>
+<val>1</val>
+</horizontal>
+<orthogonal>
+<val>1</val>
+</orthogonal>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 472.859375, 41.4921875)</val>
+</matrix>
+<points>
+<val>[(267.71478271484375, -10.3046875), (2.48828125, -10.3046875), (2.48828125, -0.41015625)]</val>
+</points>
+</Line>
+<MetadataItem id="c393fe66-ba5a-11ef-b726-955d90936786">
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 29.25, -246.48828125)</val>
+</matrix>
+<top-left>
+<val>(0.0, 0.0)</val>
+</top-left>
+<width>
+<val>163.0</val>
+</width>
+<height>
+<val>137.0</val>
+</height>
+<createdBy>
+<val>mg4</val>
+</createdBy>
+<createdOn>
+<val>2024-12-14</val>
+</createdOn>
+<description>
+<val>New Diagram</val>
+</description>
+<diagram>
+<ref refid="c526f9b3-ba54-11ef-af88-955d90936786"/>
+</diagram>
+<revision>
+<val>1.0</val>
+</revision>
+</MetadataItem>
+<CommentLineItem id="c79c54b5-ba5a-11ef-8f85-955d90936786">
+<diagram>
+<ref refid="c526f9b3-ba54-11ef-af88-955d90936786"/>
+</diagram>
+<horizontal>
+<val>1</val>
+</horizontal>
+<orthogonal>
+<val>1</val>
+</orthogonal>
+<matrix>
+<val>(1.0, 0.0, 0.0, 1.0, 604.3867797851562, 28.48828125)</val>
+</matrix>
+<points>
+<val>[(1.1912841796875, 187.9140625), (0.009836466085403117, 187.9140625), (0.009836466085403117, 1.43359375)]</val>
+</points>
+<head-connection>
+<ref refid="d348432a-ba54-11ef-a936-955d90936786"/>
+</head-connection>
+</CommentLineItem>
+</gaphor>
